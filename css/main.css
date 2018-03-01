@@ -38,7 +38,7 @@ a:hover {
 
 a {
   text-decoration: none;
-  display: inline-block;
+  color: #0074d9;
 }
 
 ul {
@@ -46,8 +46,15 @@ ul {
 }
 
 li {
-  text-align: center;
-  color: #0074d9;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 25em) {
+
+  h1 {
+    text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
